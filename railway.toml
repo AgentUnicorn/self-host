@@ -1,0 +1,7 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "minio.Dockerfile"
+
+[deploy]
+# No need to override startCommand; Railway uses CMD in your Dockerfile
+
